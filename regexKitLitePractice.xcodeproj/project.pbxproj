@@ -17,6 +17,8 @@
 		FB56F4171DE7407100B04213 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = FB56F4151DE7407100B04213 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FB56F41B1DE7408600B04213 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB56F4191DE7408600B04213 /* libicucore.A.tbd */; };
 		FB56F41C1DE7408600B04213 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB56F41A1DE7408600B04213 /* libicucore.tbd */; };
+		FB56F41F1DE7500200B04213 /* 正则表达式 元字符码表.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB56F41D1DE7500100B04213 /* 正则表达式 元字符码表.txt */; };
+		FB56F4201DE7500200B04213 /* 常用正则.txt in Resources */ = {isa = PBXBuildFile; fileRef = FB56F41E1DE7500200B04213 /* 常用正则.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		FB56F4151DE7407100B04213 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		FB56F4191DE7408600B04213 /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
 		FB56F41A1DE7408600B04213 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		FB56F41D1DE7500100B04213 /* 正则表达式 元字符码表.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "正则表达式 元字符码表.txt"; sourceTree = "<group>"; };
+		FB56F41E1DE7500200B04213 /* 常用正则.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "常用正则.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		FB56F3FB1DE7400B00B04213 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FB56F41D1DE7500100B04213 /* 正则表达式 元字符码表.txt */,
+				FB56F41E1DE7500200B04213 /* 常用正则.txt */,
 				FB56F3FC1DE7400B00B04213 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -170,7 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB56F4201DE7500200B04213 /* 常用正则.txt in Resources */,
 				FB56F40B1DE7400B00B04213 /* LaunchScreen.storyboard in Resources */,
+				FB56F41F1DE7500200B04213 /* 正则表达式 元字符码表.txt in Resources */,
 				FB56F4161DE7407100B04213 /* RegexKitLite.html in Resources */,
 				FB56F4081DE7400B00B04213 /* Assets.xcassets in Resources */,
 				FB56F4061DE7400B00B04213 /* Main.storyboard in Resources */,
@@ -346,6 +354,7 @@
 				FB56F4111DE7400B00B04213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
